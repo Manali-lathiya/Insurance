@@ -218,21 +218,28 @@ section{
 .project-section .project-card {
   background: linear-gradient(to bottom, transparent 15%, rgba(56, 56, 56, 0.84)), var(--project-image) bottom center / cover no-repeat;
 }
-.project-section .project-slider>div:nth-child(1) .project-card {
+.project-section .project-card-1 {
   --project-image: url('../assets/images/post.1.png');
 }
-.project-section .project-slider>div:nth-child(2) .project-card {
+.project-section .project-card-2 {
   --project-image: url('../assets/images/post.2.png');
 }
-.project-section .project-slider>div:nth-child(3) .project-card {
+.project-section .project-card-3 {
   --project-image: url('../assets/images/post.3.png');
 }
-.project-section .project-slider>div:nth-child(4) .project-card {
+.project-section .project-card-4 {
   --project-image: url('../assets/images/post.4.png');
+}
+.project-section .project-card-5 {
+  --project-image: url('../assets/images/post.3.png');
+}
+.project-section .project-card-6 {
+  --project-image: url('../assets/images/post.2.png');
 }
 .project-section .project-card .project-content-box {
     margin-top: 84%;
 }
+
 
 /* pricing-section style */
 .pricing-section .bullet-checkmark{
