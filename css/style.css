@@ -1,0 +1,272 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/montserrat-v31-latin-regular.eot'); 
+  src: url('../assets/fonts/montserrat-v31-latin-regular.eot?#iefix') format('embedded-opentype'), 
+       url('../assets/fonts/montserrat-v31-latin-regular.woff2') format('woff2'), 
+       url('../assets/fonts/montserrat-v31-latin-regular.woff') format('woff'), 
+       url('../assets/fonts/montserrat-v31-latin-regular.ttf') format('truetype'), 
+       url('../assets/fonts/montserrat-v31-latin-regular.svg#Montserrat') format('svg'); 
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../assets/fonts/montserrat-v31-latin-500.eot'); 
+  src: url('../assets/fonts/montserrat-v31-latin-500.eot?#iefix') format('embedded-opentype'), 
+       url('../assets/fonts/montserrat-v31-latin-500.woff2') format('woff2'), 
+       url('../assets/fonts/montserrat-v31-latin-500.woff') format('woff'), 
+       url('../assets/fonts/montserrat-v31-latin-500.ttf') format('truetype'), 
+       url('../assets/fonts/montserrat-v31-latin-500.svg#Montserrat') format('svg'); 
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../assets/fonts/montserrat-v31-latin-600.eot'); 
+  src: url('../assets/fonts/montserrat-v31-latin-600.eot?#iefix') format('embedded-opentype'), 
+       url('../assets/fonts/montserrat-v31-latin-600.woff2') format('woff2'), 
+       url('../assets/fonts/montserrat-v31-latin-600.woff') format('woff'), 
+       url('../assets/fonts/montserrat-v31-latin-600.ttf') format('truetype'), 
+       url('../assets/fonts/montserrat-v31-latin-600.svg#Montserrat') format('svg'); 
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/montserrat-v31-latin-700.eot'); 
+  src: url('../assets/fonts/montserrat-v31-latin-700.eot?#iefix') format('embedded-opentype'), 
+       url('../assets/fonts/montserrat-v31-latin-700.woff2') format('woff2'), 
+       url('../assets/fonts/montserrat-v31-latin-700.woff') format('woff'), 
+       url('../assets/fonts/montserrat-v31-latin-700.ttf') format('truetype'), 
+       url('../assets/fonts/montserrat-v31-latin-700.svg#Montserrat') format('svg'); 
+}
+/* montserrat-800 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../assets/fonts/montserrat-v31-latin-800.eot'); 
+  src: url('../assets/fonts/montserrat-v31-latin-800.eot?#iefix') format('embedded-opentype'), 
+       url('../assets/fonts/montserrat-v31-latin-800.woff2') format('woff2'), 
+       url('../assets/fonts/montserrat-v31-latin-800.woff') format('woff'), 
+       url('../assets/fonts/montserrat-v31-latin-800.ttf') format('truetype'), 
+       url('../assets/fonts/montserrat-v31-latin-800.svg#Montserrat') format('svg'); 
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2px;
+}
+
+:root {
+    --bs-primary-rgb: 35, 166, 240;
+    /* #23A6F0 */
+    --bs-secondary-rgb: 37, 43, 66;
+    /* #252B42 */
+    --bs-info-rgb: 142, 194, 242;
+    /* #8EC2F2 */
+    --bs-light-rgb: 115, 115, 115;
+    /* #737373 */
+    --bs-warning-rgb: 243, 205, 3;
+    /* #F3CD03 */
+    --bs-success-rgb: 45, 192, 113;
+    /* #2DC071 */
+    --bs-border-color: #E5E5E5;
+}
+
+a, .btn{
+  color: white !important;
+}
+.view-h1{
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 80px;
+}
+.view-h2{
+  font-size: 40px;
+  line-height: 57px;
+}
+.view-h3{
+  font-size: 24px;
+  line-height: 32px;
+}
+.view-h4,
+.para{
+    font-size: 20px;
+    line-height: 30px;
+}
+.view-h5{
+    font-size: 16px;
+    line-height: 24px;
+}
+.view-h2,
+.view-h3,
+.view-h4,
+.view-h5{
+    font-weight: 700;
+}
+.para-sm{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+a,
+.view-h6{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* .btn{
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px;
+}
+a{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+}
+h3{
+  font-size: 24px;
+  line-height: 32px;
+}
+h5{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h6{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+} */
+.bg-light-gray {
+    background-color: #FAFAFA;
+}
+.btn{
+  --bs-btn-font-size: 14px;
+  --bs-btn-font-weight: 700;
+  --bs-btn-line-height: 22px;
+  letter-spacing: 0.2px;
+}
+.form-control {
+    font-size: 14px;
+    line-height: 24px !important;
+    font-weight: 500;
+    height: 3.125rem !important;
+    min-height: 3.125rem !important;
+    background-color: #F9F9F9;
+}
+.form-control,
+.form-control:focus,
+.form-floating>label {
+    padding: 0.75rem 1.25rem !important;
+}
+.form-control:focus,
+.form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 1.25rem !important;
+    padding-bottom: 0.5rem !important;
+}
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1075px;
+    }
+}
+  
+header{
+  margin-bottom: -90px;
+  color: white;
+}
+section{
+  padding: 112px 0;
+}
+/* Hero-section style */
+.hero-section{
+  padding-top: 215px;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url('../assets/images/hero-cover.png') center / cover no-repeat;
+}
+/* Review-Section style */
+.review-section .review-card {
+    padding: 30px 40px;
+}
+
+.review-section .review-avtar {
+    top: 28px;
+    right: calc(100% - 25px);
+}
+
+/*  Project-Section style */
+.project-section .project-card {
+  background: linear-gradient(to bottom, transparent 15%, rgba(56, 56, 56, 0.84)), var(--project-image) bottom center / cover no-repeat;
+}
+.project-section .project-slider>div:nth-child(1) .project-card {
+  --project-image: url('../assets/images/post.1.png');
+}
+.project-section .project-slider>div:nth-child(2) .project-card {
+  --project-image: url('../assets/images/post.2.png');
+}
+.project-section .project-slider>div:nth-child(3) .project-card {
+  --project-image: url('../assets/images/post.3.png');
+}
+.project-section .project-slider>div:nth-child(4) .project-card {
+  --project-image: url('../assets/images/post.4.png');
+}
+.project-section .project-card .project-content-box {
+    margin-top: 84%;
+}
+
+/* pricing-section style */
+.pricing-section .bullet-checkmark{
+  max-height: 32px;
+  min-height: 32px;
+  max-width: 32px;
+  min-width: 32px;
+}
+.pricing-section .bullet-checkmark.bg-gray{
+  background-color: #BDBDBD;
+}
+.pricing-section .project-card{
+  border: 1px solid #DEDEDE;
+}
+.pricing-section .pricing-new-label {
+  background-color: #E77C40;
+  max-height: 90px;
+  min-height: 90px;
+  max-width: 90px;
+  min-width: 90px;
+  top: -24px;
+  right: 16px;
+}
+
+/* contact-section style */
+
+.contact-section {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%), url('../assets/images/contact-cover.1.png') right top / cover no-repeat;
+    padding: 90px 0;
+}
+.contact-section .contact-content {
+  max-width: 600px;
+}
+
+.bottom-sec{
+  text-decoration: none;
+}
